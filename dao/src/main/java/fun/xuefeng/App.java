@@ -7,8 +7,12 @@ public class App
         System.out.println( "Hello World!" );
     }
 
-    public static void doNothing()
+    //bug fixed
+    public static int doNothing()
     {
+        int i=1;
+        i=i-1;
 
+        return i;
     }
 }
