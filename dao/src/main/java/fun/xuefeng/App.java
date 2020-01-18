@@ -7,6 +7,7 @@ public class App
         System.out.println( "Hello World!" );
     }
 
+    //bug fixed
     public static int doNothing()
     {
         int i=1;
